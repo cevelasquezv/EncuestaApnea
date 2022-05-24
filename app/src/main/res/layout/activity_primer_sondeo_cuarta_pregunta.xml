@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PrimerSondeoPreguntas">
+
+    <TextView
+        android:id="@+id/contador_cuatro"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_marginTop="140dp"
+        android:elevation="1dp"
+        android:gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="4/8"
+        />
+
+    <TextView
+        android:id="@+id/pregunta_cuatro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/recuadro_rounded"
+        android:gravity="center"
+        android:minHeight="100dp"
+        android:padding="40dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:text="¿Padece o está recibiendo algún tratamiento para la hipertensión ? "
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/grupo_radio_cuatro"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <RadioButton
+            android:id="@+id/btn_radio_cuatro"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="170dp"
+            android:gravity="center"
+            android:text="Sí" />
+
+        <RadioButton
+            android:id="@+id/btn_radios_cuatro"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="170dp"
+            android:gravity="center"
+            android:text="No" />
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/siguiente_cuatro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/button_rounded"
+        android:text="Siguiente"
+        android:onClick="btn_primer_sondeo_quinta_pregunta"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>

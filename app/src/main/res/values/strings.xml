@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EncuestaApnea</string>
+    <string name="login_registrar">Registrar</string>
+    <string name="login_consultar">Consultar</string>
+    <string name="main_usuario">Usuario</string>
+    <string name="main_contraseña">Contraseña</string>
+    <string name="main_iniciar_sesion">iniciar sesion</string>
+    <string name="registro_nombres">Nombres</string>
+    <string name="registro_apellidos">Apellidos</string>
+    <string name="registro_documento">Documento</string>
+    <string name="registro_edad">Edad</string>
+    <string name="registro_semanas">Semanas de gestacion</string>
+    <string name="registro_observaciones">Observaciones adicionales</string>
+    <string name="registro_registrar">Registrar</string>
+</resources>
